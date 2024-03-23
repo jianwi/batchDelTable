@@ -12,6 +12,9 @@ export function initI18n(lang: "en" | "zh") {
       zh: {
         translation: resources.zh,
       },
+      ja: {
+        translation: resources.ja,
+      }
     },
     lng: lang, // 设置默认语言
     fallbackLng: "en", // 如果没有对应的语言文件，则使用默认语言
